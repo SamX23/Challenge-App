@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.samdev.challengeapp.MainActivity">
+
+    <item
+        android:id="@+id/login_act"
+        android:title="@string/login"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_form"
+        android:title="@string/form"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_calc"
+        android:title="@string/calculator"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_count_down"
+        android:title="@string/count_down"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_input"
+        android:title="@string/input_exmp"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/close"
+        android:title="@string/action_close"
+        app:showAsAction="never" />
+
+</menu>
